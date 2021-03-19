@@ -43,6 +43,13 @@
 {%- block sidebar1 %}{{ sidebar() }}{% endblock %}
 {%- block sidebar2 %}{% endblock %}
 
+{# Place the main document inside a container #}
+{%- block document %}
+<div class="container">
+  {{ super() }}
+</div>
+{%- endblock %}
+
 {%- block footer %}
   <div class="wrapper-footer">
     <div class="container">

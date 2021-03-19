@@ -290,3 +290,16 @@ footer {
     color: #000000;
     background: var(--quote);
 }
+
+/*
+ * Sphinx Specific Configurations
+ * ==============================
+ *
+ * We want the sidebar on the left so we have to adjust the default
+ * settings left margin, but we might as well left align the text
+ * instead of justifying because the region is so small.
+ */
+div.sphinxsidebar {
+    margin-left: 0;
+    text-align: left;
+}
