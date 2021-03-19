@@ -303,3 +303,40 @@ div.sphinxsidebar {
     margin-left: 0;
     text-align: left;
 }
+
+/*
+ * Admonition settings
+ * -------------------
+ */
+div.admonition, div.warning {
+    border-radius: 5pt;
+    border-width: 1px;
+    border-style: solid;
+    margin: 1em 2em;
+}
+div.admonition {
+    border-color: #dddddd;
+    background-color: var(--footer);
+}
+div.warning {
+    border-color: #D52C2C;
+    background-color: #FFAAAA;
+}
+
+div.admonition p, div.warning p {
+    margin: 0;
+}
+
+div.admonition p.admonition-title,
+div.warning p.admonition-title {
+    /*color: white;*/
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+div.admonition ul, div.admonition ol,
+div.warning ul, div.warning ol {
+    margin: 0.1em 0.5em 0.5em 3em;
+    padding: 0;
+}

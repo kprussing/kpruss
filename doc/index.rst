@@ -6,6 +6,7 @@ The Keith's Sphinx Theme Documentation
    :maxdepth: 1
    :caption: Contents:
 
+   admonitions
    extensions
    configuration
    changelog
