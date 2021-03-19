@@ -33,7 +33,7 @@ nox.options.sessions = [
 def flake8(session):
     """Run flake 8 on any sources"""
     session.install("flake8")
-    session.run("flake8", "kpruss", "noxfile.py")
+    session.run("flake8", "kpruss", "noxfile.py", "doc")
 
 
 @nox.session(python=pythons)
@@ -47,7 +47,7 @@ def check(session):
     session.run("sphinx-build",
                 "-b", "html",
                 "-W",  # Warnings are errors
-                str(pathlib.Path(__file__).parent / "docs"),
+                str(pathlib.Path(__file__).parent / "doc"),
                 str(build.resolve()),
                 )
 
@@ -63,7 +63,7 @@ def docs(session):
     session.run("sphinx-build",
                 "-b", "html",
                 "-W",  # Warnings are errors
-                str(root / "docs"),
+                str(root / "doc"),
                 str(root / "docs"),
                 )
 
