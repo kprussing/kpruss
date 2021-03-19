@@ -54,6 +54,7 @@ exclude_patterns = []
 # Customizations to demonstrate this theme
 html_theme = 'kpruss'
 html_theme_options = {
+    "author": author,
     "avatar": "https://avatars.githubusercontent.com/kprussing",
     "github": "kprussing",
     "email": "kprussing74@gmail.com",
