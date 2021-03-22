@@ -13,7 +13,7 @@
 
 {%- block header %}
 <div class="wrapper-masthead">
-  <div class="container">
+  <div class="kpruss-container">
     <header class="masthead clearfix">
       {%- if theme_avatar %}
         <a href="{{ pathto(_root) }}" class="site-avatar"><img src="{{ theme_avatar }}" /></a>
@@ -45,14 +45,14 @@
 
 {# Place the main document inside a container #}
 {%- block document %}
-<div class="container">
+<div class="kpruss-container">
   {{ super() }}
 </div>
 {%- endblock %}
 
 {%- block footer %}
   <div class="wrapper-footer">
-    <div class="container">
+    <div class="kpruss-container">
       <footer class="footer">
         {%- if theme_email %}
           <a href="mailto: {{ theme_email }}">

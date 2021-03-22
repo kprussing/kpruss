@@ -165,7 +165,7 @@ ul ul, ol ul {
 /*
  * A container for the header and footer
  */
-.container {
+.kpruss-container {
     margin: 0 auto;
     max-width: 740px;
     padding: 0 10px;
