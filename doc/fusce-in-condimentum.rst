@@ -5,13 +5,15 @@
 Fusce in Condimentum
 ====================
 
-Fusce in condimentum ante. Ut ultrices tincidunt mi, eget convallis
-augue fermentum et. Mauris cursus id magna accumsan cursus. Curabitur
-nisi lorem, vehicula at est vel, euismod faucibus orci. Praesent at
-semper lectus. Integer metus ex, auctor in lorem non, ullamcorper
-fermentum nibh. Donec nibh metus, ullamcorper in bibendum sit amet,
-interdum eget libero. Fusce mi urna, consectetur in ultrices sit amet,
-porttitor et nibh.
+.. container:: abstract
+
+    Fusce in condimentum ante. Ut ultrices tincidunt mi, eget convallis
+    augue fermentum et. Mauris cursus id magna accumsan cursus.
+    Curabitur nisi lorem, vehicula at est vel, euismod faucibus orci.
+    Praesent at semper lectus. Integer metus ex, auctor in lorem non,
+    ullamcorper fermentum nibh. Donec nibh metus, ullamcorper in
+    bibendum sit amet, interdum eget libero. Fusce mi urna, consectetur
+    in ultrices sit amet, porttitor et nibh.
 
 Donec vel pellentesque felis, ut bibendum magna. Aliquam dictum est sem,
 eget fringilla ex imperdiet sed. Ut tincidunt pharetra tempus. Duis vel

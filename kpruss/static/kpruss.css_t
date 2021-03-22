@@ -125,6 +125,11 @@ ul ul, ol ul {
 /*
  * Post specific settings
  */
+div.abstract {
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    font-size: 90%;
+}
 .by-line {
     font-style: italic;
     text-align: right;
