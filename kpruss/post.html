@@ -12,11 +12,10 @@
   {{ super() }}
   {%- if "author" in meta %}
   <div class="by-line" id="by-line">
-    <p><span class="by-line">{{ meta.author }}
+    <p>{{ meta.author }}
       {%- if "date" in meta %}
         on {{ meta.date }}
       {%- endif -%}
-      </span>
     </p>
   </div>
   {%- endif %}

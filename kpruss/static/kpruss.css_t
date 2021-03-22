@@ -125,15 +125,9 @@ ul ul, ol ul {
 /*
  * Post specific settings
  */
-.author {
+.by-line {
     font-style: italic;
-    font-size: large;
-    color: var(--quote);
-}
-.date {
-    font-style: italic;
-    font-size: large;
-    color: var(--quote);
+    text-align: right;
 }
 .posts > .post {
     padding-bottom: 2em;
