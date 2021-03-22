@@ -2,8 +2,8 @@
 :date: 1500-1-1
 :template: post.html
 
-Fusce in Condimentum
-====================
+Example of a Post
+=================
 
 .. container:: abstract
 
