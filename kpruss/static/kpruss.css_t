@@ -147,12 +147,12 @@ div.abstract {
     padding-bottom: 1em;
     border-bottom: none;
 }
-.post .blockquote {
+div.post blockquote {
     margin: 1.8em 0.8em;
     border-left: 2px solid var(--quotes);
     padding: 0.1em 1em;
     color: var(--quotes);
-    font-size: 1.375em;
+    font-size: 100%;
     font-style: italic;
 }
 

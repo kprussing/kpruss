@@ -9,7 +9,9 @@
 #}
 {%- extends "basic/page.html" %}
 {% block body %}
-  {{ super() }}
+  <div class="post">
+    {{ super() }}
+  </div>
   {%- if "author" in meta %}
   <div class="by-line" id="by-line">
     <p>{{ meta.author }}
