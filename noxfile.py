@@ -1,4 +1,5 @@
 import configparser
+import keyring
 import os
 import pathlib
 import re
@@ -75,4 +76,9 @@ def dist(session):
     session.run("python", "-m", "build")
     session.run(
         "python", "-m", "twine", "check", os.path.join("dist", "*")
+    )
+    session.run(
+        "python", "-m", "twine", "upload", "--user", "__token__",
+        "--password", keyring.get_password("kpruss", "kprussing"),
+        os.path.join("dist", "*")
     )
