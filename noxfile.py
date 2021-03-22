@@ -3,6 +3,7 @@ import keyring
 import os
 import pathlib
 import re
+import shutil
 
 import nox
 
@@ -73,6 +74,9 @@ def docs(session):
 def dist(session):
     """Build the distribution"""
     session.install("build", "twine")
+    if os.path.exists("dist"):
+        shutil.rmtree("dist")
+
     session.run("python", "-m", "build")
     session.run(
         "python", "-m", "twine", "check", os.path.join("dist", "*")
