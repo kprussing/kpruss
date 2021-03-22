@@ -4,6 +4,11 @@ Changelog
 Unreleased_
 -----------
 
+Fixed
+^^^^^
+
+-   Remove the over large spacing in the sidebar lists
+
 0.0.2_ 2021-03-21
 -----------------
 
