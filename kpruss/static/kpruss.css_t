@@ -224,7 +224,7 @@ div.post blockquote {
 
 .site-name {
     margin: 0;
-    color: var(--header);
+    color: var(--headers);
     cursor: pointer;
     font-weight: 300;
     font-size: 28px;
