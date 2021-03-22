@@ -4,16 +4,16 @@ Changelog
 Unreleased_
 -----------
 
-0.0.2_
-------
+0.0.2_ 2021-03-21
+-----------------
 
 Changed
 ^^^^^^^
 
 -   Version number to appease PyPI
 
-0.0.1_
-------
+0.0.1_ 2021-03-21
+-----------------
 
 -   Initial release
 
