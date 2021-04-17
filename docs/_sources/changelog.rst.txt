@@ -4,6 +4,9 @@ Changelog
 Unreleased_
 -----------
 
+0.0.3_ 2021-04-17
+-----------------
+
 Fixed
 ^^^^^
 
@@ -22,6 +25,7 @@ Changed
 
 -   Initial release
 
-.. _Unreleased: https://github.com/kprussing/kpruss/compare/v0.0.2...HEAD
-.. _0.0.2: https://github.com/kprussing/kpruss/releases/tag/v0.0.2
+.. _Unreleased: https://github.com/kprussing/kpruss/compare/v0.0.3...HEAD
+.. _0.0.3: https://github.com/kprussing/kpruss/compare/v0.0.2..v0.0.3
+.. _0.0.2: https://github.com/kprussing/kpruss/compare/v0.0.1..v0.0.2
 .. _0.0.1: https://github.com/kprussing/kpruss/releases/tag/v0.0.1
